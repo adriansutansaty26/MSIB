@@ -1,0 +1,229 @@
+* {
+  /* universal */
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Style the header */
+.header {
+  /*background-color: #f1f1f1;*/
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  padding: 20px;
+  text-align: center;
+}
+.header h1 {
+  color: #fff;
+  text-shadow: 2px 2px 0 rgb(220, 22, 109), 2px -2px 0 rgb(220, 22, 109), -2px 2px 0 rgb(220, 22, 109), -2px -2px 0 rgb(220, 22, 109), 2px 0px 0 rgb(220, 22, 109), 0px 2px 0 rgb(220, 22, 109), -2px 0px 0 rgb(220, 22, 109), 0px -2px 0 rgb(220, 22, 109);
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.nav-logo {
+  display: block;
+  padding: 14px 16px;
+}
+
+.nav-logo-alt {
+  display: block;
+  padding: 14px 0px;
+  padding-right: 16px;
+  color: #f2f2f2;
+  text-align: left;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.nav-link {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: all 0.1s;
+}
+.nav-link:hover {
+  -webkit-box-shadow: 0px 15px 0px 0px crimson;
+  -moz-box-shadow: 0px 15px 0px 0px crimson;
+  box-shadow: 0px 15px 0px 0px crimson;
+}
+.nav-link:active {
+  background-color: crimson;
+}
+
+
+.etalase-link {
+  display: block;
+  color: #4f4f4f;
+  padding: 10px 10px;
+  text-decoration: none;
+  transition: all 0.1s;
+  margin-bottom: 2px;
+}
+
+.etalase-link.active {
+  font-weight: bold;
+  background-color: #efefef;
+}
+
+.etalase-link:hover {
+  font-weight: bold;
+  background-color: #efefef;
+}
+
+.container {
+  padding: 10px 20px;
+}
+
+.container.side {
+  width: 25%;
+}
+
+.container.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both; /* membersihkan float left sebelumnya */
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 850px) {
+  .container.side,
+  .container.middle {
+    width: 100%;
+    padding: 10px 0px;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+}
+
+.top-shortcut {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  background-color: rgb(220, 22, 109);
+  color: white;
+  padding: 15px 18px;
+  font-weight: bolder;
+  transition: all 0.1s;
+  text-decoration: none;
+}
+.top-shortcut:hover {
+  position: fixed;
+  bottom: 55px;
+  color: #4f4f4f;
+  background-color: #f1f1f1;
+}
+.top-shortcut:active {
+  bottom: 50px;
+  background-color: rgb(220, 22, 109);
+  color: white;
+}
+
+.float-left {
+  float: left;
+}
+
+.logo {
+  height: 20px;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+.rounded-full {
+  border-radius: 100px;
+}
+
+.shadow-sm {
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.37);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.37);
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.37);
+}
+
+.p-1 {
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+.p-3 {
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+}
+.p-5 {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.px-3 {
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+.pb-2 {
+  padding-bottom: 0.4em;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+select {
+  color: #4f4f4f;
+  padding: 10px 10px;
+  border: solid 1px #dfdfdf;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container > .card {
+  width: 33%;
+  box-sizing: border-box;
+  padding-right: 0.6em;
+  padding-bottom: 0.6em;
+}
+.product-img {
+  border-radius: 7px 7px 0px 0px;
+  width: 100%;
+  transition: all 0.1s;
+}
+
+.flex-container > .card:hover .product-img {
+  border-radius: 15px;
+  width: 100%;
+  padding: 8px;
+}
+.product-name {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+}
+.border-1 {
+  border: solid 1px #dfdfdf;
+}
+h1, h2, h3, h4, h5, h6 {
+  padding: 0px;
+  margin: 0px;
+}

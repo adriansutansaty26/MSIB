@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tugas 2 | CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/layout.css" />
+</head>
+<body>
+
+<div class="header" id="header">
+  <h1>ICHINION Apparel</h1>
+</div>
+
+<div class="topnav">
+  <a href="#" class="nav-logo float-left"><img src="images/logo.png" class="logo"></a>
+  <a href="#" class="nav-logo-alt float-left">ICHINION</a>
+  <a href="#" class="nav-link float-left">Halaman Utama</a>
+  <a href="#" class="nav-link float-left">Produk Kami</a>
+  <a href="#" class="nav-link float-left">Kontak</a>
+</div>
+
+<div class="container row">
+  <div class="container side float-left">
+    <div class="rounded shadow-sm p-5">
+      <h2 class="pb-2">Etalase Toko</h2>
+      <a href="#" class="etalase-link active rounded">Semua Produk</a>
+      <a href="#" class="etalase-link rounded">T-Shirt</a>
+      <a href="#" class="etalase-link rounded">Stiker</a>
+    </div>
+  </div>
+  
+  <div class="container middle float-left">
+    <h2 class="pb-2">Semua Produk</h2>
+    <div class="flex-container">
+      <div class="card">
+        <div class="border-1 rounded">
+          <img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/7/9/7e7b9773-200c-4e8d-adb5-3dd3f7bc8c55.png.webp?ect=3g" class="product-img">
+          <div class="p-3">
+            <h5 class="product-name pb-2">Produk Satu</h5>
+            <h4>Rp99.000</h4>
+          </div>
+        </div>
+      </div> 
+      <div class="card">
+        <div class="border-1 rounded">
+          <img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/6/8/f5ba9abc-956f-48b4-9281-306d31dab1b8.png.webp?ect=3g" class="product-img">
+          <div class="p-3">
+            <h5 class="product-name pb-2">Produk Dua</h5>
+            <h4>Rp99.000</h4>
+          </div>
+        </div>
+      </div> 
+      <div class="card">
+        <div class="border-1 rounded">
+          <img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/6/13/ca1ad074-6766-46de-8d52-c175e4994919.png.webp?ect=3g" class="product-img">
+          <div class="p-3">
+            <h5 class="product-name pb-2">Produk Tiga</h5>
+            <h4>Rp99.000</h4>
+          </div>
+        </div>
+      </div> 
+      <div class="card">
+        <div class="border-1 rounded">
+          <img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/7/2/15d983ec-0cc5-47d5-8fbd-11036269133d.png.webp?ect=3g" class="product-img">
+          <div class="p-3">
+            <h5 class="product-name pb-2">Produk Empat</h5>
+            <h4>Rp99.000</h4>
+          </div>
+        </div>
+      </div> 
+      <div class="card">
+        <div class="border-1 rounded">
+          <img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/6/8/c4aedf7e-d986-4c7d-b79d-9ee3a894f36c.png.webp?ect=3g" class="product-img">
+          <div class="p-3">
+            <h5 class="product-name pb-2">Produk Lima</h5>
+            <h4>Rp99.000</h4>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+  
+  <div class="container side float-left">
+    <div class="rounded shadow-sm p-5">
+      <h2 class="pb-2">Urutkan</h2>
+      <select name="sort" id="sort" class="w-100 rounded">
+        <option value="new">Terbaru</option>
+        <option value="cheapest">Harga Tertinggi</option>
+        <option value="expensivest">Harga Terendah</option>
+        <option value="popular">Terpopuler</option>
+      </select>
+    </div>
+  </div>
+</div>
+
+<a class="top-shortcut shadow-sm rounded-full" href="#header">
+  &uarr;
+</a>
+
+<div class="footer p-5">
+  <p><b>Adrian Sutansaty - Universitas Sriwijaya</b> <br>MSIB 2022 | NF Computer</p>
+</div>
+  
+</body>
+</html>

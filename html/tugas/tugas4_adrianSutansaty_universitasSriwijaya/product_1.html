@@ -1,0 +1,71 @@
+<style>
+    body {
+        margin: 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f0f0f0;
+    }
+    .btn-1 {
+        border: 0;
+        width: 100%;
+        background-color: orange;
+        padding: 20px;
+    }
+    .btn-1:hover {
+        border: 0;
+        width: 100%;
+        background-color: chocolate;
+        padding: 20px;
+    }
+    .btn-2 {
+        border: 0;
+        background-color: greenyellow;
+        padding: 20px;
+    }
+    .btn-2:hover {
+        border: 0;
+        background-color: green;
+        padding: 20px;
+    }
+</style>
+<body>
+    <table border="0" cellpadding="10" width="80%" align="center">
+        <tbody>
+            <tr>
+                <td colspan="2" align="left">
+                    <br>
+                    <a href="product_list.html" target="main">&larr; Back to Home</a>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <th width="50%" rowspan="6">
+                    <img src="img/produk1.png" width="100%" alt="">
+                </th>
+                <th width="50%" align="left">
+                    <h1>T-Shirt TWICE Out Of Love</h1>
+                </th>
+            </tr>
+            <tr>
+                <th align="left">Rp99000</th>
+            </tr>
+            <tr>
+                <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam aspernatur aliquid iste quibusdam dolores non totam iure sint quam ipsam ex adipisci blanditiis, omnis reprehenderit, quos quis at exercitationem ducimus nemo odit possimus vitae. Neque est ut in, dolor dolorem cupiditate corporis, at impedit dignissimos vero esse quod, aliquam quo?</td>
+            </tr>
+            <tr>
+                <td>Cotton Combed 24s</td>
+            </tr>
+            <tr>
+                <td>Indonesia</td>
+            </tr>
+            <tr>
+                <td><button class="btn-1" onclick="buttonClick('Successfully Added to Cart')">Add to Cart</button></td>
+                <td><button class="btn-2" onclick="buttonClick('Checkout!')">Checkout</button></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+<script>
+    function buttonClick(message){
+        alert(message);
+    }
+</script>

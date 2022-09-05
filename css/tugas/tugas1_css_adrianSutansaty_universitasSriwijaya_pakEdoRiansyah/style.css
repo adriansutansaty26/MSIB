@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #aaa;
+  background-image: url(background.png);
+  width: 100%;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.pad {
+  padding: 20px;
+}
+
+.container {
+  background-color: #fff;
+}
+
+#nav {
+  padding: 0;
+}
+
+#nav ul,
+#nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+}
+
+#nav a {
+  display: inline-block;
+  padding: 10px 30px;
+}
+#nav a:hover {
+  background-color: #d0d0d0;
+}
+
+.bg-black {
+  background-color: black;
+  color: white;
+}
+.bg-whatsapp {
+  background-color: #128c7e;
+}
+.bg-facebook {
+  background-color: #4267b2;
+}
+.bg-line {
+  background-color: #00b900;
+}
+.bg-instagram {
+  background-color: #e1306c;
+}
+
+.thumbnail {
+  background-image: url("img/thumbnail.png");
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+  padding: 200px 0;
+  background-position: 0px -50px;
+  color: white;
+  text-shadow: 0 0 3px #000;
+}
+
+hr {
+  margin: 5px 0;
+  background-color: black;
+}
+
+.text-indent {
+  text-indent: 2rem;
+}
+
+/* FLOAT */
+
+.clear {
+  clear: both;
+}
+
+.container-a {
+  width: 360px;
+  padding: 20px;
+}
+.container-b {
+  width: 560px;
+  padding: 20px;
+}
+.list-circle {
+  list-style-type: circle;
+}
+
+.p-0 {
+  padding: 0px;
+}
+.pb-5 {
+  padding-bottom: 0.5em;
+}
+
+.avatar {
+  width: 100%;
+  margin: 5px 10px 0px 0;
+  border-radius: 50px;
+}
+
+#contact .container-a {
+  width: 440px;
+  padding: 20px;
+}
+#contact .pic1 {
+  width: 500px;
+  float: left;
+  margin: 5px 10px 0px 0;
+}
+
+.float-l {
+  float: left;
+}
+
+.text-center {
+  text-align: center;
+}
